@@ -1,4 +1,4 @@
-import MDPListBullet from "./Icons/MDPListBullet copy"
+import MDPListBullet from "./ui/Icons/mdpListBullet"
 
 type prop = {
    point: string

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import ManagementDevelopmentProgramTab from "./ui/MDPExpectationTab"
+import ManagementDevelopmentProgramTab from "./managementDevelopmentProgramExpectationTab"
 
 export default function ManagementDevelopmentProgram() {
    const list = ["Enhanced Leadership Skills", "Improved Employee Engagement", "Stronger Organisational Culture", "Sustainable Growth"]
@@ -15,7 +15,7 @@ export default function ManagementDevelopmentProgram() {
             width={592}
             height={639}
 
-            className="rounded-tl-lg rounded-tr-lg rounded-bl-lg h-159.75 object-cover"
+            className="rounded-tl-lg rounded-tr-lg rounded-bl-lg xl:h-159.75 object-cover"
          />
 
          {/* Section Description */}
@@ -39,6 +39,7 @@ export default function ManagementDevelopmentProgram() {
                </p>
             </div>
 
+            {/* Expectations list */}
             <div className="flex flex-col gap-6.25 py-2 xl:px-4">
                {list.map((each, i) => {
                   return (

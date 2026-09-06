@@ -1,8 +1,9 @@
 import Navbar from "@/components/navbar";
-import WhatWeDo from "@/components/whatWeDo";
-import LMS from "@/components/LMS";
-import Services from "@/components/Services";
-import ManagementDevelopmentProgram from "@/components/MDP";
+import WhatWeDo from "@/components/whatWeDoSection";
+import LMS from "@/components/learningManagementSystemSection";
+import Services from "@/components/servicesSection";
+import ManagementDevelopmentProgram from "@/components/managementDevelopmentProgramSection";
+import LearningWithCEO from "@/components/learnWithCEOSection";
 
 export default function Home() {
    return (
@@ -22,6 +23,9 @@ export default function Home() {
 
             {/* Management Development Program Section */}
             <ManagementDevelopmentProgram/>
+
+            {/* Learning with our CEO Section */}
+            <LearningWithCEO/>
          </main>
       </div>
    )

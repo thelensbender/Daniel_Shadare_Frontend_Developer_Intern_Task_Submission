@@ -1,5 +1,5 @@
-import NavbarBottom from "./Bottom";
-import NavbarTop from "./Top";
+import NavbarBottom from "./bottom";
+import NavbarTop from "./top";
 
 
 
