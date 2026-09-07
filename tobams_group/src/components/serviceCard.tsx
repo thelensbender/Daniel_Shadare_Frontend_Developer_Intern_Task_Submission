@@ -4,6 +4,7 @@ import ServiceListBullet from "./ui/Icons/serviceListBullet";
 // define the data type of the props
 type ServiceImage = {
   src: string
+  alt: string
   width: number
   height: number
   borderRadius: string
@@ -28,7 +29,7 @@ export default function ServicesCard({heading, description, image, list, extraSt
 
          {/* Service Image */}
          <Image
-         alt="A man teaching"
+         alt={image.alt}
          src={image.src}
          width={image.width}
          height={image.height}

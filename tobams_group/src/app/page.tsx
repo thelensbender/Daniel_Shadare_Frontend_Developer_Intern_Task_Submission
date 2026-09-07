@@ -4,6 +4,10 @@ import LMS from "@/components/learningManagementSystemSection";
 import Services from "@/components/servicesSection";
 import ManagementDevelopmentProgram from "@/components/managementDevelopmentProgramSection";
 import LearningWithCEO from "@/components/learnWithCEOSection";
+import TrainingTheConsultant from "@/components/trainingTheConsultantSection";
+import BookAConsultation from "@/components/bookAConsultationCard";
+import Testimonials from "@/components/testimonials";
+import Footer from "@/components/footer";
 
 export default function Home() {
    return (
@@ -26,7 +30,19 @@ export default function Home() {
 
             {/* Learning with our CEO Section */}
             <LearningWithCEO/>
+
+            {/* Training the consultant Section */}
+            <TrainingTheConsultant/>
+
+            {/* Book a consultation Section */}
+            <BookAConsultation/>
+
+            {/* Testimonials Section */}
+            <Testimonials/>
          </main>
+
+         {/* Footer */}
+         <Footer/>
       </div>
    )
 }
