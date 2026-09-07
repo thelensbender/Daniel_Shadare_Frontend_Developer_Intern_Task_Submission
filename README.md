@@ -11,6 +11,10 @@
 
 <https://tobamsgroupids.vercel.app/>
 
+## Figma Design Link
+
+<https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=1-1394&t=ag5LLy7ruxMVB0bC-0>
+
 ## Stack
 
 - Next.js (App Router)
