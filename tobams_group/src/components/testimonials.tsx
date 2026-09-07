@@ -31,18 +31,18 @@ export default function Testimonials() {
       }
    ]
    return (
-      <section className="flex flex-col gap-6 xl:gap-10 px-6 xl:pl-16 border border-[#C4C4C44D]">
+      <section className="flex flex-col gap-6 xl:gap-10 p-6 xl:py-16 xl:pl-16 border-b border-[#C4C4C44D]">
          <div className="flex flex-col items-center gap-6">
             {/* Heading */}
-            <h1 className="text-xl xl:text-[40px] font-nunito font-bold">Testimonials</h1>
+            <h1 className="text-xl lg:text-[30px] xl:text-[40px] font-nunito font-bold">Testimonials</h1>
 
             {/* Testimomials for mobile */}
-            <div className="flex xl:hidden">
+            <div className="flex sm:hidden">
                <TestimonialCard name="Sarah Johnson" companyPosition="CEO of Tech Innovations Inc." image="/Images/users/sarah.png" testimonial={sarahTestimonial}/>
             </div>
 
-            {/* Testimomials for Laptop */}
-            <div className="hidden w-full xl:flex xl:justify-start overflow-hidden gap-5.75">
+            {/* Testimomials for bigger screen */}
+            <div className="hidden w-full sm:flex sm:justify-start overflow-hidden gap-5.75">
                {laptopTestimonials.map((each, i) => {
                   return (
                      <div key={i}><TestimonialCard name={each.name} companyPosition={each.companyPosition} image={each.image} testimonial={each.testimonial} /></div>

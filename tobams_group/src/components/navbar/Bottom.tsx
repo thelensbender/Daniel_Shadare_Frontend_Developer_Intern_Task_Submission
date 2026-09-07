@@ -1,4 +1,4 @@
-import DropDown from "../ui/Icons/dropDown";
+import DropDown from "../ui/Icons/dropDown"
 
 export default function navbarBottom() {
    const nav = [
@@ -68,11 +68,11 @@ export default function navbarBottom() {
       }
    ]
    return(
-      <div className="hidden xl:flex justify-center gap-8 px-16 py-5">
+      <div className="hidden md:flex justify-center md:gap-4 xl:gap-8 xl:px-16 md:py-4 xl:py-5">
          {nav.map((each, i) => {
             return (
-               <div key={i} className={`flex gap-2.5 ${each.selected ? "text-[#571244] border-b border-b-[#571244]" : "text-[#151515]"} items-center pb-2`}>
-                  <p className="font-nunitosans text-[18px]">{each.heading}</p>
+               <div key={i} className={`flex md:gap-1.5 xl:gap-2.5 ${each.selected ? "text-[#571244] border-b border-b-[#571244]" : "text-[#151515]"} items-center pb-2`}>
+                  <p className="font-nunitosans md:text-sm text-[18px]">{each.heading}</p>
                   {each.dropdown.status && <DropDown color = "#571244"/>}
                </div>
             )

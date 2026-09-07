@@ -43,7 +43,7 @@ export default function Services() {
       },
    ]
    return (
-      <section className="flex flex-col rounded-2xl gap-6 xl:gap-30 p-6 xl:p-16 bg-white">
+      <section className="flex flex-col rounded-2xl gap-6 lg:gap-15 xl:gap-30 p-6 xl:p-16 bg-white">
          {services.map((each, i) => {
             return(
                <div key={i}>

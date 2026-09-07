@@ -4,7 +4,7 @@ type prop = {
    point:string
 }
 
-export default function LearningWithCEOTab({point}:prop) {
+export default function  LearningWithCEOTab({point}:prop) {
    return (
       <div className="flex items-center gap-2.5 bg-white rounded-xl p-4">
          <LWCListBullet/>

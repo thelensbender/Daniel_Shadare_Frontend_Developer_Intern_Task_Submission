@@ -1,8 +1,7 @@
-import Image from "next/image";
-import Hamburger from "../ui/Icons/hamburgerMenu";
-import ProfileIcon from "../ui/Icons/profileIcon";
-import DropDown from "../ui/Icons/dropDown";
-
+import Image from "next/image"
+import Hamburger from "../ui/Icons/hamburgerMenu"
+import ProfileIcon from "../ui/Icons/profileIcon"
+import DropDown from "../ui/Icons/dropDown"
 
 export default function navbarBottom() {
    return(
@@ -18,7 +17,7 @@ export default function navbarBottom() {
          {/* Hamburger Menu. Only visible on mobile */}
          <Hamburger/>
          {/* Account and Take accessment buttons */}
-         <div className="hidden xl:flex gap-6">
+         <div className="hidden md:flex gap-6">
             {/* Account */}
             <div className="flex items-center gap-4 bg-[#571244] px-4 py-2 rounded">
                <ProfileIcon/>

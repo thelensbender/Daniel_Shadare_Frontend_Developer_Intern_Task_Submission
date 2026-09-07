@@ -15,7 +15,7 @@ export default function Home() {
          {/* Navbar */}
          <Navbar/>
 
-         <main className="flex flex-col gap-6 xl:gap-10">
+         <main className="flex flex-col gap-6 lg:gap-10">
             {/* What We Do Section */}
             <WhatWeDo/>
 

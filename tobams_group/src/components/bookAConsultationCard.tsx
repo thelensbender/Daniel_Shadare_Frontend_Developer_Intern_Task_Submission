@@ -2,7 +2,7 @@
 
 export default function BookAConsultation() {
    return (
-      <div className="flex flex-col items-center gap-8 mx-6 xl:mx-38.25 px-6 xl:px-16 py-8 bg-[#571244] rounded-lg">
+      <div className="flex flex-col items-center gap-8 mx-6 lg:mx-38.25 px-6 lg:px-16 py-8 bg-[#571244] rounded-lg">
          {/* For mobile */}
          <p className=" xl:hidden text-white text-center font-nunito font-semibold">
             Don&apos;t just dream it—let&apos;s build it! Click now and start your project with Tobams Group. Your journey to digital excellence begins here.

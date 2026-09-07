@@ -9,7 +9,7 @@ type prop = {
 
 export default function TestimonialCard({name, companyPosition, image, testimonial}:prop) {
    return (
-      <div className="xl:w-105.5 flex flex-col items-start gap-4 border-l-2 border-l-[#EF4353] p-5 xl:px-5 xl:py-6 rounded-lg bg-white">
+      <div className="xl:w-105.5 w-82 flex flex-col items-start gap-4 border-l-2 border-l-[#EF4353] p-5 xl:py-6 rounded-lg bg-white">
          {/* User Details */}
          <div className="flex items-center gap-5.25">
             {/* User Image */}

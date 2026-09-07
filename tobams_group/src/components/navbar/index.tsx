@@ -1,6 +1,5 @@
-import NavbarBottom from "./bottom";
-import NavbarTop from "./top";
-
+import NavbarBottom from "./bottom"
+import NavbarTop from "./top"
 
 
 export default function Navbar() {

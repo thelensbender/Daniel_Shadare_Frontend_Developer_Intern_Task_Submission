@@ -26,7 +26,7 @@ export default function TrainingTheConsultant() {
          <div className="flex flex-col gap-5">
             {/* Headings */}
             <div className="flex flex-col gap-3">
-               <h1 className="text-2xl xl:text-[40px] text-[#571244] font-nunito font-semibold">Training The Consultant</h1>
+               <h1 className="text-2xl lg:text-[30px] xl:text-[40px] text-[#571244] font-nunito font-semibold">Training The Consultant</h1>
                <h3 className="xl:text-lg text-[#571244] font-nunitosans font-semibold">Maximize Your Potential as a Certified Trainer:</h3>
             </div>
             {/* Description */}
@@ -34,7 +34,7 @@ export default function TrainingTheConsultant() {
                With the help of our Business Analysis Training Consultants program, take a revolutionary step toward becoming a distinguished certified trainer. Learn from professionals in the field, immerse yourself in a thorough curriculum, and hone your training methods through interactive workshops. Participating in our program will enable you to gain expertise in Business Analysis while also developing the abilities to mentor and encourage others in their career advancement.
             </p>
             {/* Expectations and details */}
-            <div className="flex flex-col xl:grid xl:grid-rows-2 xl:grid-flow-col p-6 gap-5 rounded-lg bg-[#571244]">
+            <div className="flex flex-col md:grid md:grid-rows-2 md:grid-flow-col p-6 gap-5 rounded-lg bg-[#571244]">
                {list.map((each, i) => {
                   return (
                      <div key={i}><TrainingTheConsultantExpectation heading={each.heading} details={each.details}/></div>

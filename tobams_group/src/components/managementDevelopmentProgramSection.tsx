@@ -4,9 +4,9 @@ import ManagementDevelopmentProgramTab from "./managementDevelopmentProgramExpec
 export default function ManagementDevelopmentProgram() {
    const list = ["Enhanced Leadership Skills", "Improved Employee Engagement", "Stronger Organisational Culture", "Sustainable Growth"]
    return(
-      <section className="flex flex-col xl:flex-row gap-5 xl:gap-12 mx-6 xl:mx-16 rounded-[20px] px-5 py-4 xl:p-10 bg-[#2C0922]">
+      <section className="flex flex-col items-center lg:flex-row gap-5 xl:gap-12 mx-6 xl:mx-16 rounded-[20px] px-5 py-4 xl:p-10 bg-[#2C0922]">
          {/* Heading for mobile */}
-         <h1 className="flex xl:hidden text-white font-nunito font-semibold">Management Development Program</h1>
+         <h1 className="w-full flex items-start lg:hidden text-white font-nunito font-semibold">Management Development Program</h1>
 
          {/* Section Image */}
          <Image
@@ -15,14 +15,14 @@ export default function ManagementDevelopmentProgram() {
             width={592}
             height={639}
 
-            className="rounded-tl-lg rounded-tr-lg rounded-bl-lg xl:h-159.75 object-cover"
+            className="flex lg:items-center rounded-tl-lg rounded-tr-lg rounded-bl-lg lg:h-159.75 object-cover"
          />
 
          {/* Section Description */}
          <div className="flex flex-col gap-8">
             <div className="flex flex-col xl:gap-5">
                {/* Heading for Laptop */}
-               <h1 className="xl:flex gap-12 hidden text-white text-[40px] font-nunito font-semibold">Management Development Program</h1>
+               <h1 className="lg:flex gap-12 hidden text-white text-[30px] font-nunito font-semibold">Management Development Program</h1>
                <p className="text-sm xl:text-lg text-white font-nunitosans">
                   Tobams Group offers a comprehensive Management
                   Development Program designed to equip corporate
